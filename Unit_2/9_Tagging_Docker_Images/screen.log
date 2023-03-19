@@ -1,0 +1,160 @@
+Script started on 2023-03-19 18:12:49+0000
+]0;ec2-user@ip-172-31-82-14:~/docker/Unit_2/9_Tagging_Docker_Images[?1034h[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ vi Dockerfile 
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;34r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[34;1H"Dockerfile" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[1m[34m~                                                                                                                                                                                             [3;1H~                                                                                                                                                                                             [4;1H~                                                                                                                                                                                             [5;1H~                                                                                                                                                                                             [6;1H~                                                                                                                                                                                             [7;1H~                                                                                                                                                                                             [8;1H~                                                                                                                                                                                             [9;1H~                                                                                                                                                                                             [10;1H~                                                                                                                                                                                             [11;1H~                                                                                                                                                                                             [12;1H~                                                                                                                                                                                             [13;1H~                                                                                                                                                                                             [14;1H~                                                                                                                                                                                             [15;1H~                                                                                                                                                                                             [16;1H~                                                                                                                                                                                             [17;1H~                                                                                                                                                                                             [18;1H~                                                                                                                                                                                             [19;1H~                                                                                                                                                                                             [20;1H~                                                                                                                                                                                             [21;1H~                                                                                                                                                                                             [22;1H~                                                                                                                                                                                             [23;1H~                                                                                                                                                                                             [24;1H~                                                                                                                                                                                             [25;1H~                                                                                                                                                                                             [26;1H~                                                                                                                                                                                             [27;1H~                                                                                                                                                                                             [28;1H~                                                                                                                                                                                             [29;1H~                                                                                                                                                                                             [30;1H~                                                                                                                                                                                             [31;1H~                                                                                                                                                                                             [32;1H~                                                                                                                                                                                             [33;1H~                                                                                                                                                                                             [m[34;173H0,0-1[9CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                                                                                                                                             [3;1H~                                                                                                                                                                                             [4;1H~                                                                                                                                                                                             [5;1H~                                                                                                                                                                                             [6;1H~                                                                                                                                                                                             [7;1H~                                                                                                                                                                                             [8;1H~                                                                                                                                                                                             [9;1H~                                                                                                                                                                                             [10;1H~                                                                                                                                                                                             [11;1H~                                                                                                                                                                                             [12;1H~                                                                                                                                                                                             [13;1H~                                                                                                                                                                                             [14;1H~                                                                                                                                                                                             [15;1H~                                                                                                                                                                                             [16;1H~                                                                                                                                                                                             [17;1H~                                                                                                                                                                                             [18;1H~                                                                                                                                                                                             [19;1H~                                                                                                                                                                                             [20;1H~                                                                                                                                                                                             [21;1H~                                                                                                                                                                                             [22;1H~                                                                                                                                                                                             [23;1H~                                                                                                                                                                                             [24;1H~                                                                                                                                                                                             [25;1H~                                                                                                                                                                                             [26;1H~                                                                                                                                                                                             [27;1H~                                                                                                                                                                                             [28;1H~                                                                                                                                                                                             [29;1H~                                                                                                                                                                                             [30;1H~                                                                                                                                                                                             [31;1H~                                                                                                                                                                                             [32;1H~                                                                                                                                                                                             [33;1H~                                                                                                                                                                                             [m[34;173H0,0-1[9CAll"Dockerfile" 0L, 0B[1;1H[?25h[?25l[34;163H^[[1;1H[34;163H  [1;1H[34;163H^[[1;1H[34;163H  [1;1H[?25h[?25l[34;163H:[1;1H[34;1H[K[34;1H:[?25hwq[?25l[?2004l[>4;m"Dockerfile" 0L, 0B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m]0;ec2-user@ip-172-31-82-14:~/docker/Unit_2/9_Tagging_Docker_Images[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ cp ../
+7_WorkInstruction/               9_Tagging_Docker_Images/         Module_3:CopyVsAddInstruction/   Module_5:HealthCheckInstrcution/ Module6_WorkdirInstruction/
+8_Env_Instruction/               L_27_Overview_of_Dockerfile/     Module_4:ExposeInstruction/      Module_6_Entry_Point/            
+[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ cp ../8_Env_Instruction/
+Dockerfile  screen.log  
+[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ cp ../8_Env_Instruction/
+Dockerfile  screen.log  
+[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ cp ../8_Env_Instruction/Dockerfile .
+]0;ec2-user@ip-172-31-82-14:~/docker/Unit_2/9_Tagging_Docker_Images[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ ls -ltr
+total 16
+-rw-rw-r-- 1 ec2-user ec2-user 12288 Mar 19 18:12 screen.log
+-rw-rw-r-- 1 ec2-user ec2-user    69 Mar 19 18:13 Dockerfile
+]0;ec2-user@ip-172-31-82-14:~/docker/Unit_2/9_Tagging_Docker_Images[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ cat Dockerfile 
+FROM busybox
+ENV NGINX 1.2
+RUN touch WEB-$NGINX.txt
+CMD ["/bin/sh"]
+
+]0;ec2-user@ip-172-31-82-14:~/docker/Unit_2/9_Tagging_Docker_Images[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ docker images
+REPOSITORY                  TAG             IMAGE ID       CREATED          SIZE
+image-env                   latest          1ad26ca00b6c   26 minutes ago   4.87MB
+workdir-demo02              latest          15ddaedc356c   9 hours ago      4.87MB
+workdir-demo                latest          e8ab160b5813   9 hours ago      4.87MB
+base02                      latest          ac202a8e653f   9 hours ago      4.87MB
+base01                      latest          1233fa91fc1f   9 hours ago      4.87MB
+<none>                      <none>          dac77f96391d   10 hours ago     4.87MB
+monitoring                  latest          64b0c879698f   10 hours ago     4.87MB
+demobusybox                 latest          707e7550dfaf   11 hours ago     4.87MB
+<none>                      <none>          a48c589a826e   11 hours ago     160MB
+bretfisher/jekyll-serve     latest          928ab92ac39d   4 days ago       492MB
+imranshs08/testnode         latest          7a531ff86211   5 days ago       65.4MB
+testnode                    latest          7a531ff86211   5 days ago       65.4MB
+<none>                      <none>          93044de0593d   5 days ago       142MB
+nginx-with-html             latest          fe4bb702b262   5 days ago       142MB
+imranshs                    1.1             99fd82410d78   5 days ago       142MB
+imranshs                    latest          99fd82410d78   5 days ago       142MB
+visits_node-app             latest          28ade23b8993   11 days ago      183MB
+imranshs08/visits           latest          de362ea654db   11 days ago      183MB
+imranshs08/simple-web-app   latest          c491825d2871   11 days ago      62.3MB
+httpd                       latest          daab1fa13f86   11 days ago      145MB
+imranshs08/simpleweb        latest          e52747754025   12 days ago      62.3MB
+imranshs08/redis-server     latest          073872a58257   12 days ago      155MB
+nginx                       latest          904b8cb13b93   2 weeks ago      142MB
+redis                       latest          f9c173b0f012   2 weeks ago      117MB
+debian                      bullseye-slim   224855429754   2 weeks ago      80.5MB
+jenkins/jenkins             latest          51035bcd0a9d   2 weeks ago      471MB
+node                        alpine          212550fe9cc1   3 weeks ago      177MB
+alpine                      latest          b2aa39c304c2   5 weeks ago      7.05MB
+busybox                     latest          66ba00ad3de8   2 months ago     4.87MB
+drupal                      9.3.13          e1e764d88fb9   9 months ago     548MB
+postgres                    14.3            5b21e2e86aab   9 months ago     376MB
+hello-world                 latest          feb5d9fea6a5   18 months ago    13.3kB
+node                        6-alpine        dfc29bfa7d41   3 years ago      56.1MB
+node                        6.14-alpine     b2319faf58ef   4 years ago      55.3MB
+nginx                       1.11            5766334bdaa0   5 years ago      183MB
+]0;ec2-user@ip-172-31-82-14:~/docker/Unit_2/9_Tagging_Docker_Images[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ docker build -t Demo]]][K[K[K[K[K[K[Kdemo:v1 .
+Sending build context to Docker daemon  18.94kB
+Step 1/4 : FROM busybox
+ ---> 66ba00ad3de8
+Step 2/4 : ENV NGINX 1.2
+ ---> Using cache
+ ---> feade661342e
+Step 3/4 : RUN touch WEB-$NGINX.txt
+ ---> Using cache
+ ---> 2ea976be201c
+Step 4/4 : CMD ["/bin/sh"]
+ ---> Using cache
+ ---> 1ad26ca00b6c
+Successfully built 1ad26ca00b6c
+Successfully tagged demo:v1
+]0;ec2-user@ip-172-31-82-14:~/docker/Unit_2/9_Tagging_Docker_Images[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ di[Kocker ps
+CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS          PORTS                                                  NAMES
+b24c98c5f4d1   busybox           "sh"                     24 minutes ago   Up 24 minutes                                                          env02
+1de76b847836   image-env         "sh"                     27 minutes ago   Up 27 minutes                                                          env
+04cbd4e8530e   jenkins/jenkins   "/usr/bin/tini -- /u…"   9 days ago       Up 32 minutes   50000/tcp, 0.0.0.0:8090->8080/tcp, :::8090->8080/tcp   loving_maxwell
+]0;ec2-user@ip-172-31-82-14:~/docker/Unit_2/9_Tagging_Docker_Images[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ docker ps[K[K[K images
+REPOSITORY                  TAG             IMAGE ID       CREATED          SIZE
+image-env                   latest          1ad26ca00b6c   27 minutes ago   4.87MB
+demo                        v1              1ad26ca00b6c   27 minutes ago   4.87MB
+workdir-demo02              latest          15ddaedc356c   9 hours ago      4.87MB
+workdir-demo                latest          e8ab160b5813   9 hours ago      4.87MB
+base02                      latest          ac202a8e653f   9 hours ago      4.87MB
+base01                      latest          1233fa91fc1f   9 hours ago      4.87MB
+<none>                      <none>          dac77f96391d   10 hours ago     4.87MB
+monitoring                  latest          64b0c879698f   10 hours ago     4.87MB
+demobusybox                 latest          707e7550dfaf   11 hours ago     4.87MB
+<none>                      <none>          a48c589a826e   11 hours ago     160MB
+bretfisher/jekyll-serve     latest          928ab92ac39d   4 days ago       492MB
+imranshs08/testnode         latest          7a531ff86211   5 days ago       65.4MB
+testnode                    latest          7a531ff86211   5 days ago       65.4MB
+<none>                      <none>          93044de0593d   5 days ago       142MB
+nginx-with-html             latest          fe4bb702b262   5 days ago       142MB
+imranshs                    1.1             99fd82410d78   5 days ago       142MB
+imranshs                    latest          99fd82410d78   5 days ago       142MB
+visits_node-app             latest          28ade23b8993   11 days ago      183MB
+imranshs08/visits           latest          de362ea654db   11 days ago      183MB
+imranshs08/simple-web-app   latest          c491825d2871   11 days ago      62.3MB
+httpd                       latest          daab1fa13f86   11 days ago      145MB
+imranshs08/simpleweb        latest          e52747754025   12 days ago      62.3MB
+imranshs08/redis-server     latest          073872a58257   12 days ago      155MB
+nginx                       latest          904b8cb13b93   2 weeks ago      142MB
+redis                       latest          f9c173b0f012   2 weeks ago      117MB
+debian                      bullseye-slim   224855429754   2 weeks ago      80.5MB
+jenkins/jenkins             latest          51035bcd0a9d   2 weeks ago      471MB
+node                        alpine          212550fe9cc1   3 weeks ago      177MB
+alpine                      latest          b2aa39c304c2   5 weeks ago      7.05MB
+busybox                     latest          66ba00ad3de8   2 months ago     4.87MB
+drupal                      9.3.13          e1e764d88fb9   9 months ago     548MB
+postgres                    14.3            5b21e2e86aab   9 months ago     376MB
+hello-world                 latest          feb5d9fea6a5   18 months ago    13.3kB
+node                        6-alpine        dfc29bfa7d41   3 years ago      56.1MB
+node                        6.14-alpine     b2319faf58ef   4 years ago      55.3MB
+nginx                       1.11            5766334bdaa0   5 years ago      183MB
+]0;ec2-user@ip-172-31-82-14:~/docker/Unit_2/9_Tagging_Docker_Images[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ [H[2J[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ docker build [K[K[K[K[K[K[K[K[K[K[K[K[Kdocker tag demo:v1 demo:v2
+]0;ec2-user@ip-172-31-82-14:~/docker/Unit_2/9_Tagging_Docker_Images[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ docker images
+REPOSITORY                  TAG             IMAGE ID       CREATED          SIZE
+image-env                   latest          1ad26ca00b6c   29 minutes ago   4.87MB
+demo                        v1              1ad26ca00b6c   29 minutes ago   4.87MB
+demo                        v2              1ad26ca00b6c   29 minutes ago   4.87MB
+workdir-demo02              latest          15ddaedc356c   9 hours ago      4.87MB
+workdir-demo                latest          e8ab160b5813   9 hours ago      4.87MB
+base02                      latest          ac202a8e653f   9 hours ago      4.87MB
+base01                      latest          1233fa91fc1f   10 hours ago     4.87MB
+<none>                      <none>          dac77f96391d   10 hours ago     4.87MB
+monitoring                  latest          64b0c879698f   10 hours ago     4.87MB
+demobusybox                 latest          707e7550dfaf   11 hours ago     4.87MB
+<none>                      <none>          a48c589a826e   11 hours ago     160MB
+bretfisher/jekyll-serve     latest          928ab92ac39d   4 days ago       492MB
+imranshs08/testnode         latest          7a531ff86211   5 days ago       65.4MB
+testnode                    latest          7a531ff86211   5 days ago       65.4MB
+<none>                      <none>          93044de0593d   5 days ago       142MB
+nginx-with-html             latest          fe4bb702b262   5 days ago       142MB
+imranshs                    1.1             99fd82410d78   5 days ago       142MB
+imranshs                    latest          99fd82410d78   5 days ago       142MB
+visits_node-app             latest          28ade23b8993   11 days ago      183MB
+imranshs08/visits           latest          de362ea654db   11 days ago      183MB
+imranshs08/simple-web-app   latest          c491825d2871   11 days ago      62.3MB
+httpd                       latest          daab1fa13f86   11 days ago      145MB
+imranshs08/simpleweb        latest          e52747754025   12 days ago      62.3MB
+imranshs08/redis-server     latest          073872a58257   12 days ago      155MB
+nginx                       latest          904b8cb13b93   2 weeks ago      142MB
+redis                       latest          f9c173b0f012   2 weeks ago      117MB
+debian                      bullseye-slim   224855429754   2 weeks ago      80.5MB
+jenkins/jenkins             latest          51035bcd0a9d   2 weeks ago      471MB
+node                        alpine          212550fe9cc1   3 weeks ago      177MB
+alpine                      latest          b2aa39c304c2   5 weeks ago      7.05MB
+busybox                     latest          66ba00ad3de8   2 months ago     4.87MB
+drupal                      9.3.13          e1e764d88fb9   9 months ago     548MB
+postgres                    14.3            5b21e2e86aab   9 months ago     376MB
+hello-world                 latest          feb5d9fea6a5   18 months ago    13.3kB
+node                        6-alpine        dfc29bfa7d41   3 years ago      56.1MB
+node                        6.14-alpine     b2319faf58ef   4 years ago      55.3MB
+nginx                       1.11            5766334bdaa0   5 years ago      183MB
+]0;ec2-user@ip-172-31-82-14:~/docker/Unit_2/9_Tagging_Docker_Images[ec2-user@ip-172-31-82-14 9_Tagging_Docker_Images]$ docker stop[K[K[K[K[K[K[K[K[K[K[Kd[Kexit
+exit
+
+Script done on 2023-03-19 18:18:00+0000
