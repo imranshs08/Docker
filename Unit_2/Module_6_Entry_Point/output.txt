@@ -1,0 +1,8 @@
+[ec2-user@ip-172-31-82-14 Module_6_Entry_Point]$ docker container run -dt --name base04 base02 -c 20 google.com
+23a1f0b2cb990de1b6ecfd3bf565ddc9be293a8befbee7505bc50af408147492
+[ec2-user@ip-172-31-82-14 Module_6_Entry_Point]$ docker ps
+CONTAINER ID   IMAGE        COMMAND                  CREATED          STATUS                      PORTS     NAMES
+23a1f0b2cb99   base02       "/bin/ping -c 20 goo…"   3 seconds ago    Up 2 seconds                          base04
+0345377fc023   base01       "sh"                     6 minutes ago    Up 6 minutes                          base01
+81d2ac93d229   dac          "sh"                     18 minutes ago   Up 18 minutes (unhealthy)             eloquent_borg
+42c9847f9869   monitoring   "sh"                     25 minutes ago   Up 25 minutes (healthy)               monitor
